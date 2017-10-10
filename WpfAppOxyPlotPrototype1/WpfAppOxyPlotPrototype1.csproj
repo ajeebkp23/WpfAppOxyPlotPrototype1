@@ -68,6 +68,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MainPlotViewModel3.cs" />
     <Compile Include="MainPlotViewModel2.cs" />
     <Compile Include="MainPlotViewModel1.cs" />
     <Compile Include="MainWindow.xaml.cs">
