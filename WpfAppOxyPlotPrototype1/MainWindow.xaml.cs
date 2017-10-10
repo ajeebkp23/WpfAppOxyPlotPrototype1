@@ -24,7 +24,7 @@ namespace WpfAppOxyPlotPrototype1
         {
             InitializeComponent();
 
-            this.DataContext = new MainPlotViewModel1();
+            this.DataContext = new MainPlotViewModel2();
         }
     }
 }

@@ -8,6 +8,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <oxy:PlotView Model="{Binding MyModel}" />
+        <oxy:Plot Title="SOme thing test">
+            <oxy:Plot.Series>
+                <oxy:LineSeries ItemsSource="{Binding Points}" />
+                <oxy:LineSeries ItemsSource="{Binding Points2}" />
+            </oxy:Plot.Series>   
+        </oxy:Plot>
     </Grid>
 </Window>
