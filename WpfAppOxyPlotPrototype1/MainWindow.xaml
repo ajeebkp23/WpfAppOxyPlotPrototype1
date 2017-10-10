@@ -7,9 +7,9 @@
         xmlns:local="clr-namespace:WpfAppOxyPlotPrototype1"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Window.DataContext>
+    <!--<Window.DataContext>
         <local:MainPlotViewModel1 />
-    </Window.DataContext>
+    </Window.DataContext>-->
     <Grid>
         <oxy:PlotView Model="{Binding MyModel}" />
     </Grid>

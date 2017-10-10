@@ -15,6 +15,9 @@ namespace WpfAppOxyPlotPrototype1
         {
             this.MyModel = new PlotModel { Title = "Example 1" };
             this.MyModel.Series.Add(new FunctionSeries(Math.Cos, 0, 10, 0.1, "cos(x)"));
+            this.MyModel.Series.Add(new FunctionSeries(Math.Sin, 0, 10, 0.1, "sin(x)"));
+            this.MyModel.Series.Add(new FunctionSeries(Math.Sqrt, 0, 10, 0.1, "sin(x)"));
+            this.MyModel.Series.Add(new FunctionSeries(Math.Round, 0, 10, 0.1, "sin(x)"));
         }
 
         public PlotModel MyModel { get; private set; }
