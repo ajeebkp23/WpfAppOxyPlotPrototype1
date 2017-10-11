@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System;
 using OxyPlot;
 using OxyPlot.Series;
+using System.ComponentModel;
 
 namespace WpfAppOxyPlotPrototype1
 {
@@ -14,6 +15,8 @@ namespace WpfAppOxyPlotPrototype1
 
         public string Title { get; private set; }
 
+        // Once you update this property with MVVM style it 
+        // will be reflected in View
         public PlotModel ModelVM { get; set; }
 
         public MainPlotViewModel3()
